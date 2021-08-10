@@ -1,0 +1,175 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #00007f;
+	padding-top: 45px;
+}
+
+#container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#header {
+	border-bottom: 15px solid white;
+	padding-left: 75px;
+}
+
+#menu ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+	margin: 18px 0;
+}
+
+#menu li {
+	height: 85px;
+	width: 195px;
+	background: grey;
+	border-radius: 20px;
+	text-align: center;
+	padding-left: 45px;
+}
+
+#menu a {
+	text-decoration: none;
+	font-family: 'Courier New', monospace;
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 85px;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+	color: #eef06e;
+}
+
+#menu ul li:first-child {
+	background: url("images/house.png") no-repeat 5px center, linear-gradient(to top, #24474d, #1a3039, #070715 30%, #535257);
+}
+
+#menu ul li:nth-child(2) {
+	background: url("images/services.png") no-repeat 5px center, linear-gradient(to top, #24474d, #1a3039, #070715 30%, #535257);
+}
+
+#menu ul li:nth-child(3) {
+	background: url("images/couches.png") no-repeat 5px center, linear-gradient(to top, #24474d, #1a3039, #070715 30%, #535257);
+}
+
+#menu ul li:nth-child(4) {
+	background: url("images/prices.png") no-repeat 5px center, linear-gradient(to top, #24474d, #1a3039, #070715 30%, #535257);
+}
+
+#menu ul li:last-child {
+	background: url("images/contacts.png") no-repeat 5px center, linear-gradient(to top, #24474d, #1a3039, #070715 30%, #535257);
+}
+
+#main {
+	display: flex;
+	padding-right: 25px;
+	margin-bottom: 30px;
+}
+
+#main .left-side {
+	width: 250px;
+	background: linear-gradient(to right, #00007f 0% 20%,  white 20% 30%, #00007f 30% 40%, white 40% 50%, #00007f 50% 60%, white 60% 70%, #00007f 70% 100%);
+}
+
+#main .left-menu {
+	background: #00007f;
+	padding: 45px 25px 30px 0;
+}
+
+.left-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.left-menu li {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.left-menu ul li:last-child {
+	margin-bottom: 0;
+}
+
+.left-menu a {
+	font-family: 'Courier New', monospace;
+	color: #eef06e;
+	font-size: 24px;
+	font-weight: bold;
+	background: black;
+	display: inline-block;
+	width: 100%;
+	padding: 0 35px;
+}
+
+.left-menu a:hover {
+	background: #eef06e;
+	color: black;
+}
+
+#main .main-content {
+	width: 750px;
+	background: white;
+	padding: 45px 35px 50px 25px;
+	font-family: 'Courier New', monospace;
+	font-weight: bold;
+	color: #00007f;
+	font-size: 14px;
+}
+
+.main-content h1 {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.main-content h2 {
+	font-size: 25px;
+	margin: 0;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+.main-content h3 {
+	font-size: 22px;
+	margin: 0;
+}
+
+.main-content ul, .main-content ol {
+	padding: 0;
+	list-style-position: inside;
+}
+
+.main-content ul {
+	list-style-type: square;
+}
+
+#footer {
+	/*height: 75px;*/
+	margin: 0 25px 0 50px;
+	border-top: 15px solid white;
+}
+
+.footer-text {
+	width: 355px;
+	margin: 15px 0;
+	font-family: 'Courier New', monospace;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+}
